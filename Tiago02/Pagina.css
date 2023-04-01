@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    text-align: center;
+    font-size: 20;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background:rgb(0, 0, 0);
+    border-radius: 15px;
+    color: aliceblue;
+    padding: 5px;
+}
+head{
+    background-color: blue;
+}
+.menu{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 500px;
+    height: 30px;       
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+       
+}
+.menu a{
+    color: rgb(255, 255, 255);
+    margin: 6px;
+    text-decoration: none;
+              
+}
+.menu a:hover{    
+    text-decoration: underline;    
+}
+
+body{
+    background-image: url(https://wallpapers.com/images/featured/7xpryajznty61ra3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login{
+    background-color: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 75px;
+    border-radius: 10%;
+    
+    
+}
+.login h1{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    
+}
+input{
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    outline: none;
+    
+}
+
+
+input[type="submit"]{
+    color: white;
+    background-color: rgb(96, 98, 99);
+    width: 100%;
+    padding: 7px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(126, 37, 59);
+    transition: 0.8s;
+    
+}
+input[type=text]{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.589);
+    
+}
+input[type=password]{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.555);
+    
+}
+input[type="cadastro"]:hover{
+    background-color: rgb(126, 37, 59);
+    transition: 0.8s;
+}
+input[type="cadastro"]{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 50%;
+    padding: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 25%;
+    
+}
+
+.cadastro{
+    background-color: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 75px;
+    border-radius: 10%;
+      
+}
+
+.cadastro h1{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 35px;
+    padding: 15px;
+    
+}
+input[type="cadastrar"]{
+    color: white;
+    background-color: rgb(96, 98, 99);
+    width: 100%;
+    padding: 7px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+input[type="cadastrar"]:hover{
+    background-color: rgb(126, 37, 59);
+    transition: 0.8s;
+}
+
+input[type=password]{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.555);
+    
+}
+input[type=email]{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.555);
+    
+}
+.teste a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 8px;
+    border-radius: 10px;
+    
+}
+.confirmacao h1{
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    position: absolute;
+    
+
+}
+.Confirmacao{
+    background-color: rgba(0, 0, 0, 0.507);
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 10px;
+}
